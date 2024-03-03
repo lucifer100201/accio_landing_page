@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Lobster+Two&family=Quattrocento:wght@400;700&family=Ruda:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    width: 100%;
+  }
+
+/* nav section,home section */
+
+
+  
+  #acciojobtxt {
+    color: #012555;
+    font-family: Bai Jamjuree;
+    font-size: 21.714px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: -0.869px;
+  }
+ 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffff
+  }
+  #list-items > li > a {
+    color: #4f4f4f;
+  }
+  .nav1:hover{
+      color: rgb(7, 154, 233) !important;
+  }
+  .hero-section {
+    background-color: #2f80ed;
+    font-style: italic;
+     color: white;
+     font-size: large; 
+     text-align: center;
+}
+  
+  .l1 {
+    color: #2b2f34;
+    font-family: ABeeZee;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 130%; /* 65px */
+    letter-spacing: -0.75px;
+  }
+  .launchyourcareer1 {
+    color: #221f48;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 130%;
+    line-height-step: 20px;
+    letter-spacing: -0.75px;
+    
+  }
+  .launchyourcareer1 > p {
+    color: #2f80ed;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 130%; /* 65px */
+    letter-spacing: -0.75px;
+  }
+  form > .name {
+    background-color: #fafafa;
+  }
+  form > .number {
+    background-color: #fafafa;
+  }
+  .launchyourcareer1 {
+    display: flex;
+  }
+  .left-h-sec {
+    margin: 2%;
+  }
+  .curriculum {
+    display: flex;
+    margin-right: 10px ;
+  }
+  .lakh41 {
+    color: #2b2f34;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .Highest-Salary {
+    color: #4f4f4f;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%; /* 18.6px */
+    letter-spacing: 0.12px;
+  }
+  .below-hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 20px;
+    padding: 90px 108px 90px 108px;
+  }
+  .left-below-hero-sec {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    margin-top: 60px;
+    gap: 10px;
+    border-radius: 23px;
+    background: #fff;
+    box-shadow: 0px 20px 20px 0px rgba(107, 7, 127, 0.12);
+  }
+  .left-above-hero-sec {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 711px;
+    height: 65px;
+    padding-bottom: 70px;
+    padding-top: 150px;
+    align-items: flex-end;
+    gap: 34px;
+    border-radius: 8px;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+  }
+  .right-h-sec {
+    display: inline-flex;
+    padding: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    gap: 28px;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 20px 50px 50px 30px rgba(82, 4, 93, 0.12);
+  }
+  .name {
+    margin-bottom: 10px;
+  }
+  .apply {
+    display: flex;
+    width: 367px;
+    padding: 14px 6px 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 8px;
+    background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+    color: white;
+  }
+  .apply:hover{
+      color: white !important;
+  }
+  pre {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #818d9d;
+  }
+  a {
+    text-decoration: none;
+  }
+
+/* partner section */
+
+#hiring_partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 610px;
+}
+
+.hiring_partners {
+    width: 1280px;
+}
+
+.partners_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners_images {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 79%;
+    height: 350px;
+    justify-content: space-between;
+}
+
+.partners_container>p {
+    font-size: 16px;
+    font-style: italic;
+    font-family: "ABeeZee", sans-serif;
+    line-height: 15px;
+    background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.partners_container>h1 {
+    font-size: 42px;
+    margin-top: 12px;
+    font-family: "ABeeZee", sans-serif;
+    line-height: 40px;
+    font-style: italic;
+    color: rgba(43, 47, 52, 1);
+
+}
+
+.partners_container>h1>a {
+    text-decoration-line: none;
+    color: #2f80ed;
+}
+
+.partners_container>h5 {
+    font-size: 18px;
+    font-family: "ABeeZee", sans-serif;
+    line-height: 5px;
+    margin-top: 25px;
+    color: rgba(89, 89, 89, 1);
+}
+
+.partners_images>img {
+    padding: 10px;
+}
+
+.Placement_Report_btn {
+    width: 250px;
+    font-size: 16px;
+    font-family: "ABeeZee", sans-serif;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgba(47, 128, 237, 1);
+    padding: 14px 36px 14px 36px
+}
+
+/* courses section */
+
+
+
+#our_courses {
+    background-color: rgba(236, 248, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 610px;
+}
+
+.courses_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.courses_container>h4{
+    font-family: "ABeeZee", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    background: var(--New, linear-gradient(277deg, rgba(153, 47, 237, 1) 0%, rgba(47, 128, 237, 1) 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.courses_container>h1{
+    line-height: 50px;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    color: rgba(47, 128, 237, 1);
+}
+
+.courses_field {
+    border: 2px solid rgba(47, 128, 237, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 9px;
+    height: 500px;
+    width: 410px;
+    margin-block: 25px;
+
+}
+
+.beginner_course {
+    position: relative;
+}
+
+.first_time_coder {
+    position: absolute;
+    top: -16px;
+    left: 106px;
+    border: 2px solid rgba(47, 128, 237, 1);
+    border-radius: 7px;
+    background-color: rgba(47, 128, 237, 1);
+}
+
+.first_time_coder>p {
+    padding: 6px 15px 6px 15px;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: italic;
+    font-family: "ABeeZee", sans-serif;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.left_card {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_card>h2 {
+    position: relative;
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 26px;
+    color: rgba(43, 47, 52, 1);
+    font-family: "ABeeZee", sans-serif;
+
+}
+
+
+.buttons {
+    margin-block: 15px;
+}
+
+.btn-1 {
+    padding: 6px 15px 6px 15px;
+    border: none;
+    background-color: rgba(224, 243, 255, 1);
+    border-radius: 7px;
+}
+
+.left_card>p {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 14px;
+    color: rgba(86, 86, 86, 1);
+}
+
+.placement {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.placement_details {
+    padding: 10px;
+}
+
+.left-card-last-btns {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.brochure {
+    color: rgba(47, 128, 237, 1);
+    margin-top: 10px;
+    font-style: italic;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid var(--primaryskyblue, #2f80ed);
+    background: #fff;
+}
+
+.brochure:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(47, 128, 237, 1);
+}
+
+/* testimonials section*/
+
+#testimonials_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 610px;
+}
+
+.testimonials_container>h1 {
+    font-size: 42px;
+    font-family: "ABeeZee", sans-serif;
+    font-style: italic;
+    text-align: center;
+    line-height: 40px;
+    color: rgba(43, 47, 52, 1);
+}
+
+.testimonials_container>p {
+    font-size: 18px;
+    font-family: "ABeeZee", sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: rgba(89, 89, 89, 1);
+}
+
+.alumini_cards {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: repeat(6, 80px);
+    gap: 15px;
+    grid-template-areas:
+        "a b c"
+        "a b c"
+        "d b c"
+        "d e f"
+        "d e f";
+}
+
+.card_1 {
+    grid-area: a;
+    background-color: #2f80ed;
+}
+
+.card_2 {
+    grid-area: b;
+    background-color: #992fed;
+}
+
+.card_3 {
+    grid-area: c;
+    background-color: aqua;
+}
+
+.card_4 {
+    grid-area: d;
+    background-color: red;
+}
+
+.card_5 {
+    grid-area: e;
+    background-color: chartreuse;
+}
+
+.card_6 {
+    grid-area: f;
+    background-color: aquamarine;
+}
