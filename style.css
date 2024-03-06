@@ -282,7 +282,7 @@ a {
 
 
 
-#our_courses {
+#course_section {
   background-color: rgba(236, 248, 255, 1);
   width: 100%;
 
@@ -455,10 +455,10 @@ a {
 /* testimonials section*/
 
 #testimonials_section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-block: 50px;
   width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
 
 }
 
@@ -467,7 +467,7 @@ a {
   font-family: "ABeeZee", sans-serif;
   font-style: italic;
   text-align: center;
-  line-height: 40px;
+  line-height: 80px;
   color: rgba(43, 47, 52, 1);
 }
 
@@ -476,37 +476,122 @@ a {
   font-family: "ABeeZee", sans-serif;
   font-style: italic;
   text-align: center;
+  line-height: 50px;
   color: rgba(89, 89, 89, 1);
 }
 
-.alumini_cards {}
+#alumini_cards {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 2fr 2fr 2fr;
+
+  grid-template-areas:
+    "a b c"
+    "a b c"
+    "a  b c"
+    "d e f"
+    "d e f"
+    "d e f";
+  gap: 10px;
+
+}
+
+.alumini_cards {
+  padding: 10px;
+  border: 2px solid rgba(215, 215, 215, 1);
+  border-radius: 10px;
+  box-shadow: 5px 9px 40px rgba(0, 0, 0, 0.08);
+}
 
 .card_1 {
+  grid-area: a;
 
-  background-color: #2f80ed;
 }
 
 .card_2 {
+  grid-area: b;
 
-  background-color: #992fed;
 }
 
 .card_3 {
-
-  background-color: aqua;
+  grid-area: c;
 }
 
 .card_4 {
+  grid-area: d;
 
-  background-color: red;
 }
 
 .card_5 {
+  grid-area: e;
 
-  background-color: chartreuse;
 }
 
 .card_6 {
+  grid-area: f;
 
-  background-color: aquamarine;
+}
+
+.card_container_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px
+}
+
+.card_details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 5px;
+  gap: 10px;
+}
+
+.card_details>div>img{
+  width: 50px;
+}
+
+
+.alumini_icons {
+  background-color: rgba(0, 119, 181, 1);
+  width: 25px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+
+
+}
+
+.alumini_cards>p {
+  color: rgba(103, 103, 103, 1);
+  font-size: 14px;
+  padding: 10px;
+  font-family: "ABeeZee", sans-serif;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.alumini_cards>h6 {
+  color: rgba(103, 103, 103, 1);
+  font-size: 12px;
+  margin-left: 10px;
+  font-family: "ABeeZee", sans-serif;
+  line-height: 18px;
+  text-align: justify;
+}
+
+.alumini_name>h4 {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 33px;
+  font-family: "ABeeZee", sans-serif;
+  color: rgba(0, 0, 0, 1);
+}
+
+.alumini_name>p{
+  font-family: "ABeeZee", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(103, 103, 103, 1)git;
 }
